@@ -1,0 +1,726 @@
+2021-07-27 21:31:59,026 ================
+2021-07-27 21:31:59,027 Starting watering tool
+2021-07-27 21:31:59,030 ================
+2021-07-27 21:32:16,616 ================
+2021-07-27 21:32:16,619 Starting watering tool
+2021-07-27 21:32:16,620 ================
+2021-07-27 21:34:56,480 ================
+2021-07-27 21:34:56,481 Starting watering tool
+2021-07-27 21:34:56,484 ================
+2021-07-27 21:35:45,614 ================
+2021-07-27 21:35:45,615 Starting watering tool
+2021-07-27 21:35:45,617 ================
+2021-07-27 21:36:09,469 ================
+2021-07-27 21:36:09,471 Starting watering tool
+2021-07-27 21:36:09,473 ================
+2021-07-27 21:36:37,812 ================
+2021-07-27 21:36:37,820 Starting watering tool
+2021-07-27 21:36:37,822 ================
+2021-07-27 21:37:24,631 ================
+2021-07-27 21:37:24,633 Starting watering tool
+2021-07-27 21:37:24,635 ================
+2021-07-27 21:37:26,373 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'time', 'value': '2021-07-27 22:37:26'}, {'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:37:26,375 Error: name 'requests' is not defined
+2021-07-27 21:40:50,331 ================
+2021-07-27 21:40:50,334 Starting watering tool
+2021-07-27 21:40:50,336 ================
+2021-07-27 21:40:52,088 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'time', 'value': '2021-07-27 22:40:52'}, {'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:40:52,091 Error: name 'json' is not defined
+2021-07-27 21:41:08,466 ================
+2021-07-27 21:41:08,469 Starting watering tool
+2021-07-27 21:41:08,471 ================
+2021-07-27 21:41:10,396 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'time', 'value': '2021-07-27 22:41:10'}, {'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:43:24,595 ================
+2021-07-27 21:43:24,599 Starting watering tool
+2021-07-27 21:43:24,601 ================
+2021-07-27 21:43:26,342 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'time', 'value': '2021-07-27 22:43:26'}, {'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:46:11,690 ================
+2021-07-27 21:46:11,695 Starting watering tool
+2021-07-27 21:46:11,698 ================
+2021-07-27 21:46:13,451 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'time', 'value': '2021-07-27 22:46:13'}, {'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:47:28,481 ================
+2021-07-27 21:47:28,484 Starting watering tool
+2021-07-27 21:47:28,486 ================
+2021-07-27 21:47:30,240 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'time', 'value': '2021-07-27 22:47:30'}, {'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:49:00,057 ================
+2021-07-27 21:49:00,061 Starting watering tool
+2021-07-27 21:49:00,063 ================
+2021-07-27 21:49:01,195 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': 'true'}]}
+2021-07-27 21:50:04,640 ================
+2021-07-27 21:50:04,643 Starting watering tool
+2021-07-27 21:50:04,645 ================
+2021-07-27 21:50:05,771 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:50:35,271 ================
+2021-07-27 21:50:35,274 Starting watering tool
+2021-07-27 21:50:35,276 ================
+2021-07-27 21:50:36,403 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:51:50,601 ================
+2021-07-27 21:51:50,604 Starting watering tool
+2021-07-27 21:51:50,606 ================
+2021-07-27 21:51:51,785 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:53:02,376 ================
+2021-07-27 21:53:02,380 Starting watering tool
+2021-07-27 21:53:02,382 ================
+2021-07-27 21:53:03,512 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:54:56,597 ================
+2021-07-27 21:54:56,600 Starting watering tool
+2021-07-27 21:54:56,602 ================
+2021-07-27 21:54:57,735 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:54:58,305 response This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:55:09,324 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:55:09,637 response This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:55:56,590 ================
+2021-07-27 21:55:56,593 Starting watering tool
+2021-07-27 21:55:56,595 ================
+2021-07-27 21:55:57,723 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:55:58,163 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:56:04,074 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:56:04,320 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:56:07,516 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:56:07,981 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:56:09,180 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:56:09,431 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:57:12,311 ================
+2021-07-27 21:57:12,315 Starting watering tool
+2021-07-27 21:57:12,317 ================
+2021-07-27 21:57:12,491 -> Periodic task
+2021-07-27 21:57:12,501 ...relay on
+2021-07-27 21:57:13,518 relay off...
+2021-07-27 21:57:13,522 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:57:14,030 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:57:24,048 -> Periodic task
+2021-07-27 21:57:24,051 ...relay on
+2021-07-27 21:57:25,056 relay off...
+2021-07-27 21:57:25,059 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:57:25,395 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:57:27,907 -> Button pushed
+2021-07-27 21:57:27,910 ...relay on
+2021-07-27 21:57:28,916 relay off...
+2021-07-27 21:57:28,920 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:57:29,389 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 21:57:35,408 -> Periodic task
+2021-07-27 21:57:35,411 ...relay on
+2021-07-27 21:57:36,417 relay off...
+2021-07-27 21:57:36,420 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 21:57:36,759 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:00,214 ================
+2021-07-27 22:02:00,217 Starting watering tool
+2021-07-27 22:02:00,219 ================
+2021-07-27 22:02:00,285 -> Periodic task
+2021-07-27 22:02:00,294 ...relay on
+2021-07-27 22:02:01,310 relay off...
+2021-07-27 22:02:01,313 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:01,583 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:11,588 -> Periodic task
+2021-07-27 22:02:11,591 ...relay on
+2021-07-27 22:02:12,596 relay off...
+2021-07-27 22:02:12,605 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:12,787 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:16,446 -> Button pushed
+2021-07-27 22:02:16,449 ...relay on
+2021-07-27 22:02:17,455 relay off...
+2021-07-27 22:02:17,459 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:17,869 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:22,798 -> Periodic task
+2021-07-27 22:02:22,801 ...relay on
+2021-07-27 22:02:23,806 relay off...
+2021-07-27 22:02:23,810 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:24,008 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:34,022 -> Periodic task
+2021-07-27 22:02:34,025 ...relay on
+2021-07-27 22:02:35,030 relay off...
+2021-07-27 22:02:35,033 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:35,695 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:45,709 -> Periodic task
+2021-07-27 22:02:45,711 ...relay on
+2021-07-27 22:02:46,715 relay off...
+2021-07-27 22:02:46,719 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:46,920 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:02:56,942 -> Periodic task
+2021-07-27 22:02:56,945 ...relay on
+2021-07-27 22:02:57,950 relay off...
+2021-07-27 22:02:57,953 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:02:58,433 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:03:08,458 -> Periodic task
+2021-07-27 22:03:08,462 ...relay on
+2021-07-27 22:03:09,466 relay off...
+2021-07-27 22:03:09,470 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:03:09,860 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:06:50,784 ================
+2021-07-27 22:06:50,791 Starting watering tool
+2021-07-27 22:06:50,793 ================
+2021-07-27 22:06:50,849 -> Periodic task
+2021-07-27 22:06:50,852 ...relay on
+2021-07-27 22:06:51,856 relay off...
+2021-07-27 22:06:51,865 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:06:52,191 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-27 22:09:00,742 ================
+2021-07-27 22:09:00,760 Starting watering tool
+2021-07-27 22:09:00,762 ================
+2021-07-27 22:09:00,864 -> Periodic task
+2021-07-27 22:09:00,879 ...relay on
+2021-07-27 22:09:01,883 relay off...
+2021-07-27 22:09:01,884 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-27 22:09:02,326 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:08:48,261 ================
+2021-07-30 22:08:48,262 Starting watering tool
+2021-07-30 22:08:48,263 ================
+2021-07-30 22:08:48,371 -> Periodic task
+2021-07-30 22:08:48,373 ...relay on
+2021-07-30 22:08:49,376 relay off...
+2021-07-30 22:08:49,377 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:08:49,570 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:09:09,591 -> Periodic task
+2021-07-30 22:09:09,592 ...relay on
+2021-07-30 22:09:10,594 relay off...
+2021-07-30 22:09:10,595 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:09:10,757 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:09:30,776 -> Periodic task
+2021-07-30 22:09:30,777 ...relay on
+2021-07-30 22:09:31,779 relay off...
+2021-07-30 22:09:31,780 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:09:31,943 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:09:51,964 -> Periodic task
+2021-07-30 22:09:51,965 ...relay on
+2021-07-30 22:09:52,967 relay off...
+2021-07-30 22:09:52,968 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:09:53,089 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:09:54,679 -> Button pushed
+2021-07-30 22:09:54,680 ...relay on
+2021-07-30 22:09:55,682 relay off...
+2021-07-30 22:09:55,683 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:09:55,916 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:09:56,781 -> Button pushed
+2021-07-30 22:09:56,782 ...relay on
+2021-07-30 22:09:57,784 relay off...
+2021-07-30 22:09:57,785 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:09:57,854 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:10:13,110 -> Periodic task
+2021-07-30 22:10:13,111 ...relay on
+2021-07-30 22:10:14,113 relay off...
+2021-07-30 22:10:14,114 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:10:14,195 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:10:34,216 -> Periodic task
+2021-07-30 22:10:34,217 ...relay on
+2021-07-30 22:10:35,219 relay off...
+2021-07-30 22:10:35,220 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:10:35,295 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:10:55,316 -> Periodic task
+2021-07-30 22:10:55,317 ...relay on
+2021-07-30 22:10:56,319 relay off...
+2021-07-30 22:10:56,320 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:10:56,453 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:11:16,468 -> Periodic task
+2021-07-30 22:11:16,469 ...relay on
+2021-07-30 22:11:17,471 relay off...
+2021-07-30 22:11:17,472 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:11:17,642 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:11:41,361 ================
+2021-07-30 22:11:41,362 Starting watering tool
+2021-07-30 22:11:41,363 ================
+2021-07-30 22:11:41,395 -> Periodic task
+2021-07-30 22:11:41,396 ...relay on
+2021-07-30 22:11:42,400 relay off...
+2021-07-30 22:11:42,401 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:11:42,493 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:11:43,805 -> Button pushed
+2021-07-30 22:11:43,806 ...relay on
+2021-07-30 22:11:44,808 relay off...
+2021-07-30 22:11:44,809 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:11:44,973 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:20:41,170 -> Button pushed
+2021-07-30 22:20:41,171 ...relay on
+2021-07-30 22:20:42,173 relay off...
+2021-07-30 22:20:42,174 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:20:42,234 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:20:51,187 -> Button pushed
+2021-07-30 22:20:51,188 ...relay on
+2021-07-30 22:20:52,190 relay off...
+2021-07-30 22:20:52,191 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:20:52,306 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:21:06,526 -> Button pushed
+2021-07-30 22:21:06,527 ...relay on
+2021-07-30 22:21:07,529 relay off...
+2021-07-30 22:21:07,530 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:21:07,669 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:21:23,836 -> Button pushed
+2021-07-30 22:21:23,837 ...relay on
+2021-07-30 22:21:24,839 relay off...
+2021-07-30 22:21:24,840 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:21:25,187 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:24:23,661 -> Button pushed
+2021-07-30 22:24:23,662 ...relay on
+2021-07-30 22:24:24,664 relay off...
+2021-07-30 22:24:24,665 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:24:24,898 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:25:32,435 -> Button pushed
+2021-07-30 22:25:32,436 ...relay on
+2021-07-30 22:25:33,438 relay off...
+2021-07-30 22:25:33,439 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:25:33,713 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-30 22:26:18,428 -> Button pushed
+2021-07-30 22:26:18,429 ...relay on
+2021-07-30 22:26:19,431 relay off...
+2021-07-30 22:26:19,432 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-30 22:26:19,810 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:12:10,757 ================
+2021-07-31 20:12:10,773 Starting watering tool
+2021-07-31 20:12:10,774 ================
+2021-07-31 20:12:10,817 -> Periodic task
+2021-07-31 20:12:10,819 ...relay on
+2021-07-31 20:12:11,821 relay off...
+2021-07-31 20:12:11,823 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:12:11,894 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:12:19,232 -> Button pushed
+2021-07-31 20:12:19,234 ...relay on
+2021-07-31 20:12:20,236 relay off...
+2021-07-31 20:12:20,237 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:12:20,468 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:13:58,245 -> Button pushed
+2021-07-31 20:13:58,246 ...relay on
+2021-07-31 20:13:59,248 relay off...
+2021-07-31 20:13:59,249 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:13:59,396 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:23:35,668 -> Button pushed
+2021-07-31 20:23:35,669 ...relay on
+2021-07-31 20:23:36,671 relay off...
+2021-07-31 20:23:36,672 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:23:37,007 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:23:37,545 -> Button pushed
+2021-07-31 20:23:37,546 ...relay on
+2021-07-31 20:23:38,548 relay off...
+2021-07-31 20:23:38,549 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:23:38,644 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:30:35,053 -> Button pushed
+2021-07-31 20:30:35,055 ...relay on
+2021-07-31 20:30:36,057 relay off...
+2021-07-31 20:30:36,058 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:30:36,129 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:30:46,611 -> Button pushed
+2021-07-31 20:30:46,612 ...relay on
+2021-07-31 20:30:47,614 relay off...
+2021-07-31 20:30:47,615 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:30:47,692 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:32:00,011 -> Button pushed
+2021-07-31 20:32:00,012 ...relay on
+2021-07-31 20:32:01,014 relay off...
+2021-07-31 20:32:01,015 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:32:01,141 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:32:18,839 -> Button pushed
+2021-07-31 20:32:18,840 ...relay on
+2021-07-31 20:32:19,842 relay off...
+2021-07-31 20:32:19,844 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:32:20,195 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:32:52,079 -> Button pushed
+2021-07-31 20:32:52,080 ...relay on
+2021-07-31 20:32:53,082 relay off...
+2021-07-31 20:32:53,084 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:32:53,174 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:34:21,033 -> Button pushed
+2021-07-31 20:34:21,034 ...relay on
+2021-07-31 20:34:22,036 relay off...
+2021-07-31 20:34:22,038 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:34:22,111 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:36:11,781 -> Button pushed
+2021-07-31 20:36:11,783 ...relay on
+2021-07-31 20:36:12,786 relay off...
+2021-07-31 20:36:12,787 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:36:12,876 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:38:08,169 -> Button pushed
+2021-07-31 20:38:08,170 ...relay on
+2021-07-31 20:38:09,172 relay off...
+2021-07-31 20:38:09,173 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:38:09,496 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:38:28,659 -> Button pushed
+2021-07-31 20:38:28,660 ...relay on
+2021-07-31 20:38:29,662 relay off...
+2021-07-31 20:38:29,664 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:38:29,780 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:44:23,061 -> Button pushed
+2021-07-31 20:44:23,064 ...relay on
+2021-07-31 20:44:24,066 relay off...
+2021-07-31 20:44:24,067 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:44:24,348 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:47:42,850 -> Button pushed
+2021-07-31 20:47:42,851 ...relay on
+2021-07-31 20:47:43,853 relay off...
+2021-07-31 20:47:43,854 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:47:43,972 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:48:09,362 -> Button pushed
+2021-07-31 20:48:09,363 ...relay on
+2021-07-31 20:48:10,364 relay off...
+2021-07-31 20:48:10,366 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:48:10,684 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:48:56,069 -> Button pushed
+2021-07-31 20:48:56,071 ...relay on
+2021-07-31 20:48:57,073 relay off...
+2021-07-31 20:48:57,074 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:48:57,151 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:51:39,706 -> Button pushed
+2021-07-31 20:51:39,707 ...relay on
+2021-07-31 20:51:40,709 relay off...
+2021-07-31 20:51:40,710 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:51:40,795 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 20:51:54,072 -> Button pushed
+2021-07-31 20:51:54,073 ...relay on
+2021-07-31 20:51:55,075 relay off...
+2021-07-31 20:51:55,076 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 20:51:55,153 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 21:00:09,400 -> Button pushed
+2021-07-31 21:00:09,402 ...relay on
+2021-07-31 21:00:10,404 relay off...
+2021-07-31 21:00:10,405 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 21:00:10,474 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 21:00:47,169 -> Button pushed
+2021-07-31 21:00:47,170 ...relay on
+2021-07-31 21:00:48,172 relay off...
+2021-07-31 21:00:48,173 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 21:00:48,244 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 21:00:54,808 -> Button pushed
+2021-07-31 21:00:54,810 ...relay on
+2021-07-31 21:00:55,811 relay off...
+2021-07-31 21:00:55,813 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 21:00:55,877 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 21:01:04,953 -> Button pushed
+2021-07-31 21:01:04,954 ...relay on
+2021-07-31 21:01:05,956 relay off...
+2021-07-31 21:01:05,957 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 21:01:06,091 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 21:01:54,782 -> Button pushed
+2021-07-31 21:01:54,783 ...relay on
+2021-07-31 21:01:55,785 relay off...
+2021-07-31 21:01:55,786 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 21:01:56,036 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-07-31 21:18:39,979 -> Button pushed
+2021-07-31 21:18:39,980 ...relay on
+2021-07-31 21:18:40,982 relay off...
+2021-07-31 21:18:40,983 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-07-31 21:18:41,124 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-01 01:45:31,977 -> Periodic task
+2021-08-01 01:45:31,978 ...relay on
+2021-08-01 01:45:32,979 relay off...
+2021-08-01 01:45:32,980 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-01 01:45:33,172 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-01 07:18:53,200 -> Periodic task
+2021-08-01 07:18:53,202 ...relay on
+2021-08-01 07:18:54,203 relay off...
+2021-08-01 07:18:54,204 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-01 07:18:54,277 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-01 12:52:14,350 -> Periodic task
+2021-08-01 12:52:14,351 ...relay on
+2021-08-01 12:52:15,353 relay off...
+2021-08-01 12:52:15,354 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-01 12:52:15,708 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-01 14:09:04,216 -> Button pushed
+2021-08-01 14:09:04,217 ...relay on
+2021-08-01 14:09:05,219 relay off...
+2021-08-01 14:09:05,220 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-01 14:09:05,359 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-01 18:25:35,761 -> Periodic task
+2021-08-01 18:25:35,762 ...relay on
+2021-08-01 18:25:36,764 relay off...
+2021-08-01 18:25:36,765 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-01 18:25:36,852 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-01 23:58:56,886 -> Periodic task
+2021-08-01 23:58:56,887 ...relay on
+2021-08-01 23:58:57,888 relay off...
+2021-08-01 23:58:57,889 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-01 23:58:58,262 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-02 05:32:18,350 -> Periodic task
+2021-08-02 05:32:18,351 ...relay on
+2021-08-02 05:32:19,353 relay off...
+2021-08-02 05:32:19,354 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-02 05:32:19,525 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-02 11:05:39,590 -> Periodic task
+2021-08-02 11:05:39,591 ...relay on
+2021-08-02 11:05:40,593 relay off...
+2021-08-02 11:05:40,594 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-02 11:05:40,748 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-02 16:39:00,820 -> Periodic task
+2021-08-02 16:39:00,821 ...relay on
+2021-08-02 16:39:01,823 relay off...
+2021-08-02 16:39:01,824 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-02 16:39:02,034 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-02 22:12:22,100 -> Periodic task
+2021-08-02 22:12:22,101 ...relay on
+2021-08-02 22:12:23,103 relay off...
+2021-08-02 22:12:23,104 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-02 22:12:23,173 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-03 03:45:44,939 -> Periodic task
+2021-08-03 03:45:44,941 ...relay on
+2021-08-03 03:45:45,942 relay off...
+2021-08-03 03:45:45,943 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-03 03:45:46,006 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-03 09:19:06,039 -> Periodic task
+2021-08-03 09:19:06,040 ...relay on
+2021-08-03 09:19:07,042 relay off...
+2021-08-03 09:19:07,043 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-03 09:19:07,492 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-03 14:52:27,589 -> Periodic task
+2021-08-03 14:52:27,590 ...relay on
+2021-08-03 14:52:28,591 relay off...
+2021-08-03 14:52:28,592 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-03 14:52:28,702 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-03 20:25:48,789 -> Periodic task
+2021-08-03 20:25:48,790 ...relay on
+2021-08-03 20:25:49,792 relay off...
+2021-08-03 20:25:49,793 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-03 20:25:49,896 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 01:59:09,959 -> Periodic task
+2021-08-04 01:59:09,961 ...relay on
+2021-08-04 01:59:10,962 relay off...
+2021-08-04 01:59:10,963 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 01:59:11,093 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 07:32:31,099 -> Periodic task
+2021-08-04 07:32:31,100 ...relay on
+2021-08-04 07:32:32,102 relay off...
+2021-08-04 07:32:32,103 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 07:32:32,160 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:03:19,610 -> Button pushed
+2021-08-04 09:03:19,611 ...relay on
+2021-08-04 09:03:20,613 relay off...
+2021-08-04 09:03:20,614 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:03:20,728 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:03:24,264 -> Button pushed
+2021-08-04 09:03:24,265 ...relay on
+2021-08-04 09:03:25,267 relay off...
+2021-08-04 09:03:25,268 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:03:25,647 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:03:48,382 -> Button pushed
+2021-08-04 09:03:48,383 ...relay on
+2021-08-04 09:03:49,385 relay off...
+2021-08-04 09:03:49,386 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:03:49,603 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:04:23,128 -> Button pushed
+2021-08-04 09:04:23,129 ...relay on
+2021-08-04 09:04:24,131 relay off...
+2021-08-04 09:04:24,132 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:04:24,312 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:05:00,381 -> Button pushed
+2021-08-04 09:05:00,382 ...relay on
+2021-08-04 09:05:01,384 relay off...
+2021-08-04 09:05:01,385 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:05:01,491 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:05:05,629 -> Button pushed
+2021-08-04 09:05:05,630 ...relay on
+2021-08-04 09:05:06,635 relay off...
+2021-08-04 09:05:06,636 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:05:06,719 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 09:05:07,050 -> Button pushed
+2021-08-04 09:05:07,052 ...relay on
+2021-08-04 09:05:08,053 relay off...
+2021-08-04 09:05:08,054 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 09:05:08,121 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 11:33:04,637 -> Button pushed
+2021-08-04 11:33:04,638 ...relay on
+2021-08-04 11:33:05,640 relay off...
+2021-08-04 11:33:05,641 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 11:33:05,728 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 11:33:19,850 -> Button pushed
+2021-08-04 11:33:19,851 ...relay on
+2021-08-04 11:33:20,853 relay off...
+2021-08-04 11:33:20,854 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 11:33:21,276 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 11:33:26,653 -> Button pushed
+2021-08-04 11:33:26,654 ...relay on
+2021-08-04 11:33:27,656 relay off...
+2021-08-04 11:33:27,657 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 11:33:27,981 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 11:33:31,052 -> Button pushed
+2021-08-04 11:33:31,053 ...relay on
+2021-08-04 11:33:32,055 relay off...
+2021-08-04 11:33:32,056 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 11:33:32,121 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 11:33:34,082 -> Button pushed
+2021-08-04 11:33:34,083 ...relay on
+2021-08-04 11:33:35,085 relay off...
+2021-08-04 11:33:35,086 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 11:33:35,142 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 11:33:40,057 -> Button pushed
+2021-08-04 11:33:40,058 ...relay on
+2021-08-04 11:33:41,060 relay off...
+2021-08-04 11:33:41,061 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 11:33:41,181 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 13:05:52,196 -> Periodic task
+2021-08-04 13:05:52,198 ...relay on
+2021-08-04 13:05:53,199 relay off...
+2021-08-04 13:05:53,200 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 13:05:53,430 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-04 18:39:13,459 -> Periodic task
+2021-08-04 18:39:13,460 ...relay on
+2021-08-04 18:39:14,461 relay off...
+2021-08-04 18:39:14,462 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-04 18:39:14,710 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 00:12:34,789 -> Periodic task
+2021-08-05 00:12:34,790 ...relay on
+2021-08-05 00:12:35,792 relay off...
+2021-08-05 00:12:35,793 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 00:12:36,103 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 05:45:56,129 -> Periodic task
+2021-08-05 05:45:56,130 ...relay on
+2021-08-05 05:45:57,132 relay off...
+2021-08-05 05:45:57,133 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 05:45:57,482 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 10:47:24,259 -> Button pushed
+2021-08-05 10:47:24,260 ...relay on
+2021-08-05 10:47:25,262 relay off...
+2021-08-05 10:47:25,263 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 10:47:25,332 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 10:47:29,998 -> Button pushed
+2021-08-05 10:47:29,999 ...relay on
+2021-08-05 10:47:31,004 relay off...
+2021-08-05 10:47:31,006 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 10:47:31,076 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 10:47:32,115 -> Button pushed
+2021-08-05 10:47:32,116 ...relay on
+2021-08-05 10:47:33,118 relay off...
+2021-08-05 10:47:33,119 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 10:47:33,187 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 10:47:34,110 -> Button pushed
+2021-08-05 10:47:34,111 ...relay on
+2021-08-05 10:47:35,113 relay off...
+2021-08-05 10:47:35,114 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 10:47:35,184 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 11:19:17,583 -> Periodic task
+2021-08-05 11:19:17,584 ...relay on
+2021-08-05 11:19:18,586 relay off...
+2021-08-05 11:19:18,587 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 11:19:18,660 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 16:52:38,709 -> Periodic task
+2021-08-05 16:52:38,710 ...relay on
+2021-08-05 16:52:39,712 relay off...
+2021-08-05 16:52:39,713 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 16:52:39,782 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-05 22:25:59,880 -> Periodic task
+2021-08-05 22:25:59,881 ...relay on
+2021-08-05 22:26:00,882 relay off...
+2021-08-05 22:26:00,883 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-05 22:26:01,241 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-06 03:59:21,309 -> Periodic task
+2021-08-06 03:59:21,310 ...relay on
+2021-08-06 03:59:22,312 relay off...
+2021-08-06 03:59:22,313 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-06 03:59:22,506 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-06 09:32:42,569 -> Periodic task
+2021-08-06 09:32:42,570 ...relay on
+2021-08-06 09:32:43,572 relay off...
+2021-08-06 09:32:43,573 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-06 09:32:43,866 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-06 15:06:03,967 -> Periodic task
+2021-08-06 15:06:03,969 ...relay on
+2021-08-06 15:06:04,971 relay off...
+2021-08-06 15:06:04,972 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-06 15:06:05,204 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-06 17:45:08,825 -> Button pushed
+2021-08-06 17:45:08,826 ...relay on
+2021-08-06 17:45:09,828 relay off...
+2021-08-06 17:45:09,829 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-06 17:45:09,942 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-06 20:39:25,305 -> Periodic task
+2021-08-06 20:39:25,306 ...relay on
+2021-08-06 20:39:26,308 relay off...
+2021-08-06 20:39:26,310 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-06 20:39:26,492 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-07 02:12:46,593 -> Periodic task
+2021-08-07 02:12:46,595 ...relay on
+2021-08-07 02:12:47,597 relay off...
+2021-08-07 02:12:47,598 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-07 02:12:47,855 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-07 07:46:07,956 -> Periodic task
+2021-08-07 07:46:07,958 ...relay on
+2021-08-07 07:46:08,960 relay off...
+2021-08-07 07:46:08,961 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-07 07:46:09,054 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-07 13:19:29,156 -> Periodic task
+2021-08-07 13:19:29,157 ...relay on
+2021-08-07 13:19:30,159 relay off...
+2021-08-07 13:19:30,160 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-07 13:19:30,227 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-07 18:52:50,244 -> Periodic task
+2021-08-07 18:52:50,245 ...relay on
+2021-08-07 18:52:51,247 relay off...
+2021-08-07 18:52:51,248 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-07 18:52:51,700 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-08 00:26:11,801 -> Periodic task
+2021-08-08 00:26:11,803 ...relay on
+2021-08-08 00:26:12,805 relay off...
+2021-08-08 00:26:12,806 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-08 00:26:13,336 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-08 05:59:33,409 -> Periodic task
+2021-08-08 05:59:33,410 ...relay on
+2021-08-08 05:59:34,412 relay off...
+2021-08-08 05:59:34,413 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-08 05:59:34,693 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-08 11:32:54,795 -> Periodic task
+2021-08-08 11:32:54,796 ...relay on
+2021-08-08 11:32:55,799 relay off...
+2021-08-08 11:32:55,800 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-08 11:32:56,088 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-08 17:06:16,190 -> Periodic task
+2021-08-08 17:06:16,192 ...relay on
+2021-08-08 17:06:17,194 relay off...
+2021-08-08 17:06:17,195 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-08 17:06:17,481 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-08 19:23:17,118 -> Button pushed
+2021-08-08 19:23:17,120 ...relay on
+2021-08-08 19:23:18,122 relay off...
+2021-08-08 19:23:18,123 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-08 19:23:18,202 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-08 22:39:37,569 -> Periodic task
+2021-08-08 22:39:37,570 ...relay on
+2021-08-08 22:39:38,572 relay off...
+2021-08-08 22:39:38,573 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-08 22:39:38,870 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-09 04:12:58,939 -> Periodic task
+2021-08-09 04:12:58,940 ...relay on
+2021-08-09 04:12:59,942 relay off...
+2021-08-09 04:12:59,943 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-09 04:13:00,295 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-09 09:46:20,319 -> Periodic task
+2021-08-09 09:46:20,320 ...relay on
+2021-08-09 09:46:21,322 relay off...
+2021-08-09 09:46:21,323 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-09 09:46:21,624 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-09 15:19:41,726 -> Periodic task
+2021-08-09 15:19:41,727 ...relay on
+2021-08-09 15:19:42,729 relay off...
+2021-08-09 15:19:42,730 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-09 15:19:42,811 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-09 20:53:02,819 -> Periodic task
+2021-08-09 20:53:02,820 ...relay on
+2021-08-09 20:53:03,822 relay off...
+2021-08-09 20:53:03,823 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-09 20:53:04,031 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-09 22:15:08,851 -> Button pushed
+2021-08-09 22:15:08,852 ...relay on
+2021-08-09 22:15:09,854 relay off...
+2021-08-09 22:15:09,855 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-09 22:15:09,981 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-10 02:26:24,069 -> Periodic task
+2021-08-10 02:26:24,070 ...relay on
+2021-08-10 02:26:25,072 relay off...
+2021-08-10 02:26:25,073 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-10 02:26:25,172 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-10 07:59:45,215 -> Periodic task
+2021-08-10 07:59:45,216 ...relay on
+2021-08-10 07:59:46,218 relay off...
+2021-08-10 07:59:46,219 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-10 07:59:46,292 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-10 13:33:06,329 -> Periodic task
+2021-08-10 13:33:06,331 ...relay on
+2021-08-10 13:33:07,332 relay off...
+2021-08-10 13:33:07,333 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-10 13:33:07,406 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-10 19:06:27,507 -> Periodic task
+2021-08-10 19:06:27,508 ...relay on
+2021-08-10 19:06:28,510 relay off...
+2021-08-10 19:06:28,511 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-10 19:06:28,591 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}
+2021-08-10 21:44:05,422 ================
+2021-08-10 21:44:05,423 Starting watering tool
+2021-08-10 21:44:05,424 ================
+2021-08-10 21:44:05,466 -> Periodic task
+2021-08-10 21:44:05,468 ...relay on
+2021-08-10 21:44:06,471 relay off...
+2021-08-10 21:44:06,592 request: http://homedata:5000/generic {'location': 'growlab', 'table': [{'key': 'watering', 'value': '1'}]}
+2021-08-10 21:44:06,689 response: This is POST request.Received: {"location": "growlab", "table": [{"key": "watering", "value": "1"}]}

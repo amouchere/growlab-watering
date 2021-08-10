@@ -1,0 +1,10 @@
+[Unit]
+Description=Watering tool
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi/growlab-watering/watering.py
+
+[Install]
+WantedBy=multi-user.target

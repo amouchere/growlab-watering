@@ -23,10 +23,15 @@ except Exception as e:
     logging.error("Error: {}".format(e))
     sys.exit(1)
 
-logging.info("config file value for key {} -> {}".format("key", config["key"]))
+
 button_gpio = config["button_gpio"]
 relay_gpio = config["relay_gpio"]
 periodic_task_in_seconds = config["periodic_task_in_seconds"]
+
+logging.info("--- Reading configuration file ---")
+logging.info("Button GPIO {}".format(button_gpio))
+logging.info("Relay  GPIO {}".format(relay_gpio))
+logging.info("Periodic task {} seconds".format(periodic_task_in_seconds))
 
 ## button = GPIO 26 et GROUND
 ## https://projects.raspberrypi.org/en/projects/push-button-stop-motion/6

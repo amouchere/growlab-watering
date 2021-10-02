@@ -1,3 +1,6 @@
 {
-    "key": "value"
+    "key": "value",
+    "button_gpio ": 26,
+    "relay_gpio": 23,
+    "periodic_task_in_seconds": 86400
 }

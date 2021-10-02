@@ -24,28 +24,31 @@ except Exception as e:
     sys.exit(1)
 
 logging.info("config file value for key {} -> {}".format("key", config["key"]))
+button_gpio = config["button_gpio"]
+relay_gpio = config["relay_gpio"]
+periodic_task_in_seconds = config["periodic_task_in_seconds"]
 
 ## button = GPIO 26 et GROUND
 ## https://projects.raspberrypi.org/en/projects/push-button-stop-motion/6
-button = Button(26)
+button = Button(button_gpio)
 GPIO.setmode(GPIO.BCM) # Broadcom pin-numbering scheme
-GPIO.setup(23, GPIO.OUT)
-GPIO.output(23, GPIO.LOW)
+GPIO.setup(relay_gpio, GPIO.OUT)
+GPIO.output(relay_gpio, GPIO.LOW)
 
 
 def relayOnForSeconds():
     logging.info('...relay on')
-    GPIO.output(23, GPIO.LOW)
+    GPIO.output(relay_gpio, GPIO.LOW)
     time.sleep(1)
     logging.info('relay off...')
-    GPIO.output(23, GPIO.HIGH)
+    GPIO.output(relay_gpio, GPIO.HIGH)
 
 def infiniteloop1():
     while True:
         logging.info('-> Periodic task')
         relayOnForSeconds()
         sendStat()
-        time.sleep(86400)
+        time.sleep(periodic_task_in_seconds)
 
 def infiniteloop2():
     while True:

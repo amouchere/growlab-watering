@@ -1,4 +1,4 @@
-import threading, logging, json
+import threading, logging, json, os, sys
 import pytz, requests
 import RPi.GPIO as GPIO
 import time
@@ -14,6 +14,16 @@ logging.info("================")
 logging.info("Starting watering tool")
 logging.info("================")
 
+# Parse config file
+config = {}
+try:
+    with open("./config.json") as f:
+        config = json.loads(f.read())
+except Exception as e:
+    logging.error("Error: {}".format(e))
+    sys.exit(1)
+
+logging.info("config file value for key {} -> {}".format("key", config["key"]))
 
 ## button = GPIO 26 et GROUND
 ## https://projects.raspberrypi.org/en/projects/push-button-stop-motion/6

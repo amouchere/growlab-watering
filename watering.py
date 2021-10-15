@@ -38,7 +38,7 @@ logging.info("Periodic task {} seconds".format(periodic_task_in_seconds))
 button = Button(button_gpio)
 GPIO.setmode(GPIO.BCM) # Broadcom pin-numbering scheme
 GPIO.setup(relay_gpio, GPIO.OUT)
-GPIO.output(relay_gpio, GPIO.LOW)
+GPIO.output(relay_gpio, initial=GPIO.HIGH)
 
 
 def relayOnForSeconds():

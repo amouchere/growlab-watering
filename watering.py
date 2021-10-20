@@ -17,7 +17,7 @@ logging.info("================")
 # Parse config file
 config = {}
 try:
-    with open("./config.json") as f:
+    with open("/home/pi/growlab-watering/config.json") as f:
         config = json.loads(f.read())
 except Exception as e:
     logging.error("Error: {}".format(e))

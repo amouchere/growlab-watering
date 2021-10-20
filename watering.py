@@ -37,8 +37,7 @@ logging.info("Periodic task {} seconds".format(periodic_task_in_seconds))
 ## https://projects.raspberrypi.org/en/projects/push-button-stop-motion/6
 button = Button(button_gpio)
 GPIO.setmode(GPIO.BCM) # Broadcom pin-numbering scheme
-GPIO.setup(relay_gpio, GPIO.OUT)
-GPIO.output(relay_gpio, initial=GPIO.HIGH)
+GPIO.setup(relay_gpio, GPIO.OUT, initial=GPIO.HIGH)
 
 
 def relayOnForSeconds():

@@ -1,3 +1,6 @@
+# Growlab watering
+This project allows you to control the watering of your mini-garden using small pumps.
+
 # Enable watering service 
 
 Install Python modules with `pip3`:

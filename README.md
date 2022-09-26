@@ -1,6 +1,13 @@
 # Growlab watering
 This project allows you to control the watering of your mini-garden using small pumps.
 
+# Hardware
+
+* A Raspberry Pi
+* One or many relay modules (VCC 5V)
+* One or many micro submersible mini water pumps
+* External battery 5V
+
 # Enable watering service 
 
 Install Python modules with `pip3`:

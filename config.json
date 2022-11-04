@@ -9,13 +9,13 @@
         {
             "name" : "Pompe 2",
             "button_gpio": 26,
-            "relay_gpio": 23,
+            "relay_gpio": 21,
             "periodic_task_in_seconds": 86400
         }
     ],
     "stat" :
         {
+            "isActive": "false",
             "url" : "http://homedata:5000/generic"
         }
-
 }

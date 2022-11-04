@@ -33,7 +33,7 @@ def relayOnForSeconds(name, relay_gpio):
 
 def infiniteloop1(name, relay_gpio, periodic_task_in_seconds):
     while True:
-        logging.info('-> Periodic task')
+        logging.info("{} -> Periodic task".format(name))
         relayOnForSeconds(name, relay_gpio)
         sendStat(name)
         time.sleep(periodic_task_in_seconds)
@@ -42,7 +42,7 @@ def infiniteloop2(name, relay_gpio, button):
     while True:
         try:
             button.wait_for_press()
-            logging.info('-> Button pushed')
+            logging.info("{} -> Button pushed".format(name))
             relayOnForSeconds(name, relay_gpio)
             sendStat(name)
             
@@ -51,32 +51,33 @@ def infiniteloop2(name, relay_gpio, button):
 
 def sendStat(name):
     statServerUrl = config["stat"]["url"]
+    statIsActive = config["stat"]["isActive"]
+    if statIsActive == "true" :
+        data = {"location":"growlab","table":[{"key":"watering","value":"1"}, {"key":"name","value":name}]}
+        logging.info("{} -> request: {} {}".format(name, statServerUrl, data))
 
-    data = {"location":"growlab","table":[{"key":"watering","value":"1"}, {"key":"name","value":name}]}
-    logging.info("request: {} {}".format(statServerUrl, data))
+        try:
+            x = requests.post(statServerUrl, json.dumps(data))
+        except Exception as e:
+            logging.error("{} -> Error: {}".format(name, e))
 
-    try:
-        x = requests.post(statServerUrl, json.dumps(data))
-    except Exception as e:
-        logging.error("Error: {}".format(e))
-
-    #print the response text (the content of the requested file):
-    logging.info("response: {}".format(x.text))
+        #print the response text (the content of the requested file):
+        logging.info("{} -> response: {}".format(name, x.text))
+    else:    
+        logging.info("statistics is not activated")
 
 
 for pump in config["pumps"]:
     
-    print (pump["id"])
-
     name = pump["name"]
     button_gpio = pump["button_gpio"]
     relay_gpio = pump["relay_gpio"]
     periodic_task_in_seconds = pump["periodic_task_in_seconds"]
 
     logging.info("--- Reading configuration file for {} ---".format(name))
-    logging.info("Button GPIO {}".format(button_gpio))
-    logging.info("Relay  GPIO {}".format(relay_gpio))
-    logging.info("Periodic task {} seconds".format(periodic_task_in_seconds))
+    logging.info("{} Button GPIO {}".format(name, button_gpio))
+    logging.info("{} Relay  GPIO {}".format(name, relay_gpio))
+    logging.info("{} Periodic task {} seconds".format(name, periodic_task_in_seconds))
 
     ## button = GPIO 26 et GROUND
     ## https://projects.raspberrypi.org/en/projects/push-button-stop-motion/6

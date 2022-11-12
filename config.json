@@ -3,7 +3,7 @@
         {
             "name" : "Pompe 1",
             "button_gpio": 11,
-            "relay_gpio": 22,
+            "relay_gpio": 20,
             "periodic_task_in_seconds": 86400
         },
         {

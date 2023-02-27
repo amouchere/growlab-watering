@@ -24,26 +24,26 @@ except Exception as e:
     sys.exit(1)
 
 
-def relayOnForSeconds(name, relay_gpio):
+def relayOnForSeconds(name, relay_gpio, duration):
     logging.info("{} ...relay on".format(name))
     GPIO.output(relay_gpio, GPIO.LOW)
-    time.sleep(1)
+    time.sleep(duration)
     logging.info("{} relay off...".format(name))
     GPIO.output(relay_gpio, GPIO.HIGH)
 
-def infiniteloop1(name, relay_gpio, periodic_task_in_seconds):
+def infiniteloop1(name, relay_gpio, periodic_task_in_seconds, duration):
     while True:
         logging.info("{} -> Periodic task".format(name))
-        relayOnForSeconds(name, relay_gpio)
+        relayOnForSeconds(name, relay_gpio, duration)
         sendStat(name)
         time.sleep(periodic_task_in_seconds)
 
-def infiniteloop2(name, relay_gpio, button):
+def infiniteloop2(name, relay_gpio, button, duration):
     while True:
         try:
             button.wait_for_press()
             logging.info("{} -> Button pushed".format(name))
-            relayOnForSeconds(name, relay_gpio)
+            relayOnForSeconds(name, relay_gpio, duration)
             sendStat(name)
             
         except KeyboardInterrupt:
@@ -72,11 +72,13 @@ for pump in config["pumps"]:
     name = pump["name"]
     button_gpio = pump["button_gpio"]
     relay_gpio = pump["relay_gpio"]
+    duration = pump["duration"]
     periodic_task_in_seconds = pump["periodic_task_in_seconds"]
 
     logging.info("--- Reading configuration file for {} ---".format(name))
     logging.info("{} Button GPIO {}".format(name, button_gpio))
     logging.info("{} Relay  GPIO {}".format(name, relay_gpio))
+    logging.info("{} Watering duration {} sec".format(name, duration))
     logging.info("{} Periodic task {} seconds".format(name, periodic_task_in_seconds))
 
     ## button = GPIO 26 et GROUND
@@ -85,9 +87,9 @@ for pump in config["pumps"]:
     GPIO.setmode(GPIO.BCM) # Broadcom pin-numbering scheme
     GPIO.setup(relay_gpio, GPIO.OUT, initial=GPIO.HIGH)
 
-    thread1 = threading.Thread(target=infiniteloop1, args=(name, relay_gpio, periodic_task_in_seconds))
+    thread1 = threading.Thread(target=infiniteloop1, args=(name, relay_gpio, periodic_task_in_seconds, duration))
     thread1.start()
 
-    thread2 = threading.Thread(target=infiniteloop2, args=(name, relay_gpio, button))
+    thread2 = threading.Thread(target=infiniteloop2, args=(name, relay_gpio, button, duration))
     thread2.start()
 

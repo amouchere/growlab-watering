@@ -1,18 +1,24 @@
 {
     "pumps" : [
         {
-            "name" : "Pompe 1",
+            "id" : 0,
+            "name" : "Pompe 0",
             "button_gpio": 11,
             "relay_gpio": 20,
             "periodic_task_in_seconds": 86400, 
             "duration" : 3
         },
         {
-            "name" : "Pompe 2",
+            "id" : 1,
+            "name" : "Pompe 1",
             "button_gpio": 26,
             "relay_gpio": 21,
             "periodic_task_in_seconds": 86400, 
             "duration" : 3
         }
-    ]
+    ], 
+    "server" : { 
+        "isActive" : true,
+        "port" : 8000
+    }
 }

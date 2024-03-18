@@ -35,7 +35,6 @@ def infiniteloop1(name, relay_gpio, periodic_task_in_seconds, duration):
     while True:
         logging.info("{} -> Periodic task".format(name))
         relayOnForSeconds(name, relay_gpio, duration)
-        sendStat(name)
         time.sleep(periodic_task_in_seconds)
 
 def infiniteloop2(name, relay_gpio, button, duration):
@@ -44,27 +43,9 @@ def infiniteloop2(name, relay_gpio, button, duration):
             button.wait_for_press()
             logging.info("{} -> Button pushed".format(name))
             relayOnForSeconds(name, relay_gpio, duration)
-            sendStat(name)
             
         except KeyboardInterrupt:
             break
-
-def sendStat(name):
-    statServerUrl = config["stat"]["url"]
-    statIsActive = config["stat"]["isActive"]
-    if statIsActive == "true" :
-        data = {"location":"growlab","table":[{"key":"watering","value":"1"}, {"key":"name","value":name}]}
-        logging.info("{} -> request: {} {}".format(name, statServerUrl, data))
-
-        try:
-            x = requests.post(statServerUrl, json.dumps(data))
-        except Exception as e:
-            logging.error("{} -> Error: {}".format(name, e))
-
-        #print the response text (the content of the requested file):
-        logging.info("{} -> response: {}".format(name, x.text))
-    else:    
-        logging.info("statistics is not activated")
 
 
 for pump in config["pumps"]:

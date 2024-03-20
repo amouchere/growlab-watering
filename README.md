@@ -7,13 +7,22 @@ This project allows you to control the watering of your mini-garden using small 
 * One or many relay modules (VCC 5V)
 * One or many micro submersible mini water pumps
 * External battery 5V
+# Installation
+
+```bash
+git clone git@github.com:amouchere/growlab-watering.git
+```
 
 # Enable watering service 
 
-Install Python modules with `pip3`:
+Install Python modules with `apt`:
 
 ```bash
-sudo pip3 install -r requirements.txt
+sudo apt update -qy && \
+  sudo apt install -qy git\
+  python3 \
+  python3-tz \
+  python3-requests
 ```
 
 
